@@ -11,7 +11,6 @@ This is a solution to the [Space tourism website challenge on Fronted Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Project structure](#project-structure)
-  - [Getting started](#getting-started)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
