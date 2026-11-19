@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Bellefair&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  font-family: "Barlow Condensed", sans-serif;
+color: white;
+background-color: #0B0D17;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@utility mask-fade-b {
+  mask-image: linear-gradient(to bottom, #0B0D17 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #0B0D17 90%, transparent 100%);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.home {
+  background-image: url("/assets/home/background-home-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+@media (min-width: 500px) {
+  .home {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+  }
+}
+@media (min-width: 980px) {
+  .home {
+    background-image: url("/assets/home/background-home-desktop.jpg");
+  }
+}
+.destination {
+  background-image: url("/assets/destination/background-destination-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+@media (min-width: 500px) {
+  .destination {
+    background-image: url("/assets/destination/background-destination-tablet.jpg");
+  }
+}
+@media (min-width: 980px) {
+  .destination {
+    background-image: url("/assets/destination/background-destination-desktop.jpg");
+  }
+}
+button,
+a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* =========================
+   Space Tourism Typography
+========================= */
+
+.font-bellefair {
+  font-family: "Bellefair", serif;
+}
+
+.font-barlow {
+  font-family: "Barlow Condensed", sans-serif;
+}
